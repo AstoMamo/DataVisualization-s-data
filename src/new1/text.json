@@ -1,0 +1,14 @@
+{"nodes":[
+    {"name":"Agricultural 'waste'"},
+    {"name":"Bio-conversion"},
+    {"name":"Liquid"},
+    {"name":"Losses"},
+    {"name":"Solid"}
+
+    ],
+    "links":[
+    {"source": "Agricultural 'waste'", "target": "Bio-conversion",  "value": 50},
+    {"source": "Liquid", "target": "Bio-conversion",  "value": 50},
+    {"source": "Bio-conversion", "target": "Losses",  "value": 30},
+    {"source": "Bio-conversion", "target": "Solid",  "value": 70}
+]}
